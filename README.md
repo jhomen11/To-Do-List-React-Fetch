@@ -5,7 +5,7 @@
 
 ```
 $ git clone https://github.com/jhomen11/To-Do-List-React-Fetch.git
-$ cd Todo-List-Reat
+$ cd Todo-List-Reat-Fetch
 ```
 
 ##### and install the npm package:
