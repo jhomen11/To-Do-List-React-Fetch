@@ -1,38 +1,105 @@
-.App {
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f7f6f2;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contenido {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.main {
+  background-color: #4b6587;
+  box-shadow: 4px 4px 8px 0 #888888;
+  border-radius: 10px;
   text-align: center;
+  margin: auto;
+  padding: 30px;
+  width: 500px;
+}
+h1 {
+  color: #fff;
+  margin-bottom: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.error {
+  background-color: #efb7b7;
+  color: #bd4b4b;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 5px;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+form {
+  width: 100%;
+  margin-bottom: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.contenido_formulario {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 0 auto;
+  width: 100%;
+}
+input {
+  color: #716f81;
+  border: none;
+  border-radius: 3px;
+  margin-right: 5px;
+  outline: none;
+  padding: 10px;
+  width: 100%;
+}
+.agregar {
+  color: #fff;
+  background-color: #7eb5a6;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  width: 50px;
+}
+.tareas {
+  padding: 10px 0;
+  width: 100%;
+}
+h3 {
+  color: #fff;
+  margin-bottom: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+h4{
+  color: #FFF;
+  margin: 40px 0 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contenido_tarea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+p {
+  background-color: #e8d0b3;
+  box-shadow: 2px 2px #888888;
+  color: #716f81;
+  margin: 0 5px 0 0;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+}
+.eliminar {
+  color: #fff;
+  background-color: #c36839;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  width: 50px;
 }
